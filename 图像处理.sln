@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "图像腐蚀", "图像腐蚀\图像腐蚀.vcxproj", "{EC8E67B3-7283-4B31-B830-ECC2F78C4144}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BlurredImage", "..\图像模糊\BlurredImage\BlurredImage.vcxproj", "{A4A4E4FE-5F25-4B19-B15F-656352B2A748}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "canny_EdgeDetection", "..\边缘检测\canny_EdgeDetection\canny_EdgeDetection.vcxproj", "{23320FBC-F6BA-4E27-8498-CE7EE027F96C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC8E67B3-7283-4B31-B830-ECC2F78C4144}.Debug|x64.ActiveCfg = Debug|x64
+		{EC8E67B3-7283-4B31-B830-ECC2F78C4144}.Debug|x64.Build.0 = Debug|x64
+		{EC8E67B3-7283-4B31-B830-ECC2F78C4144}.Debug|x86.ActiveCfg = Debug|Win32
+		{EC8E67B3-7283-4B31-B830-ECC2F78C4144}.Debug|x86.Build.0 = Debug|Win32
+		{EC8E67B3-7283-4B31-B830-ECC2F78C4144}.Release|x64.ActiveCfg = Release|x64
+		{EC8E67B3-7283-4B31-B830-ECC2F78C4144}.Release|x64.Build.0 = Release|x64
+		{EC8E67B3-7283-4B31-B830-ECC2F78C4144}.Release|x86.ActiveCfg = Release|Win32
+		{EC8E67B3-7283-4B31-B830-ECC2F78C4144}.Release|x86.Build.0 = Release|Win32
+		{A4A4E4FE-5F25-4B19-B15F-656352B2A748}.Debug|x64.ActiveCfg = Debug|x64
+		{A4A4E4FE-5F25-4B19-B15F-656352B2A748}.Debug|x64.Build.0 = Debug|x64
+		{A4A4E4FE-5F25-4B19-B15F-656352B2A748}.Debug|x86.ActiveCfg = Debug|Win32
+		{A4A4E4FE-5F25-4B19-B15F-656352B2A748}.Debug|x86.Build.0 = Debug|Win32
+		{A4A4E4FE-5F25-4B19-B15F-656352B2A748}.Release|x64.ActiveCfg = Release|x64
+		{A4A4E4FE-5F25-4B19-B15F-656352B2A748}.Release|x64.Build.0 = Release|x64
+		{A4A4E4FE-5F25-4B19-B15F-656352B2A748}.Release|x86.ActiveCfg = Release|Win32
+		{A4A4E4FE-5F25-4B19-B15F-656352B2A748}.Release|x86.Build.0 = Release|Win32
+		{23320FBC-F6BA-4E27-8498-CE7EE027F96C}.Debug|x64.ActiveCfg = Debug|x64
+		{23320FBC-F6BA-4E27-8498-CE7EE027F96C}.Debug|x64.Build.0 = Debug|x64
+		{23320FBC-F6BA-4E27-8498-CE7EE027F96C}.Debug|x86.ActiveCfg = Debug|Win32
+		{23320FBC-F6BA-4E27-8498-CE7EE027F96C}.Debug|x86.Build.0 = Debug|Win32
+		{23320FBC-F6BA-4E27-8498-CE7EE027F96C}.Release|x64.ActiveCfg = Release|x64
+		{23320FBC-F6BA-4E27-8498-CE7EE027F96C}.Release|x64.Build.0 = Release|x64
+		{23320FBC-F6BA-4E27-8498-CE7EE027F96C}.Release|x86.ActiveCfg = Release|Win32
+		{23320FBC-F6BA-4E27-8498-CE7EE027F96C}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C702E753-C13E-485F-834E-2C44D2C8B2BC}
+	EndGlobalSection
+EndGlobal
